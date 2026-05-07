@@ -1,0 +1,250 @@
+body {
+    background-color: #d0edd3;
+    font-family: "Asap", sans-serif;
+}
+#home {
+    background-image: url("plant.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.home {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 6px double white;
+    border-radius: 20px;
+    width: 1400px;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #1b60b5;
+    text-align: center;
+    font-size: 50px;
+}
+
+li,
+td {
+    color: black;
+    font-size: 25px;
+    font-family: "Asap", sans-serif;
+    padding: 5px 20px;
+}
+
+fieldset {
+    border: 6px double white;
+    border-radius: 20px;
+}
+
+legend {
+    margin-left: 30px;
+    padding: 0 30px 0 30px;
+}
+
+.name {
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    width: 180PX;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Asap", sans-serif;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(78, 126, 78);
+    color: white;
+    font-size: 25px;
+    transform: scale(1.1)
+}
+
+#current {
+    background-color: rgb(0, 136, 29);
+    color: white;
+    font-size: 25px;
+}
+
+.menu {
+    width: 200px;
+}
+
+.equipment,
+.result {
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.equipment:hover {
+    transform: scale(2);
+    transform-origin: 0 0;
+    border-radius: 30px;
+}
+
+.result:hover {
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    border-radius: 30px;
+}
+
+.text1 {
+    width: 1400px;
+    margin: auto;
+    padding: 20px;
+    font-size: 25px;
+    font-family: "Asap", sans-serif;
+}
+
+.text2 {
+    width: 1400px;
+    margin: auto;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    color: darkslategrey;
+    font-family: "Asap", sans-serif;
+    font-style: italic;
+}
+
+.text3 {
+    width: 300px;
+    margin: auto;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    color: darkslategrey;
+    font-family: "Asap", sans-serif;
+    font-style: italic;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page4 {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.page5,
+.page6,
+.page2,
+.page1,
+.page3 {
+    width: 1400px;
+    margin: auto;
+}
+
+#backIcon {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    Z-index: -1;
+}
+
+#risktable,
+#risktabe>td {
+    width: 1400px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.floatLeft {
+    float: left;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.floatRight {
+    float: right;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.floatRight:hover,
+.floatLeft:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+#red {
+    border: 4px dashed red;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#green {
+    border: 4px dashed green;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#top {
+    position: fixed;
+    bottom: 0%;
+    right: 15PX;
+    background-color: darkseagreen;
+    color: white;
+    font-size: 20px;
+    font-family: "Asap", sans-serif;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    width: 100px;
+    Text-align: center;
+    transition: 0.5s;
+}
+
+#top:hover {
+    background-color: rgb(78, 126, 78);
+    color: white;
+    font-size: 25px;
+    transform: scale(1.1);
+    border-radius: 15px 15px 0 0;
+}
+
+.tableTitle,
+th {
+    background-color: darkseagreen;
+    color: white;
+    font-size: 25px;
+    font-family: "Asap", sans-serif;
+    width: 200px;
+    text-align: center;
+}
+.tableImg {
+    width: 200px;
+    text-align: center;
+}
+.animImg {
+    transition: 0.5s;
+}
+
+.animImg:hover {
+    transform: scale(1.8) rotate(10deg);
+    border-radius: 20px;
+}
+
+.processImg {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
